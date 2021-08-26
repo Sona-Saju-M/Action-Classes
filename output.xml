@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210826 15:19:56.391" rpa="false" schemaversion="2">
+<suite id="s1" name="Action" source="C:\Users\Sona Sanju-2441\Action-Classes\TestCases\Action.robot">
+<test id="s1-t1" name="Mouse Operations">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.in/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210826 15:19:56.625" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
+<status status="PASS" starttime="20210826 15:19:56.625" endtime="20210826 15:20:02.805"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210826 15:20:02.805" endtime="20210826 15:20:02.944"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:04.961" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:02.945" endtime="20210826 15:20:04.961"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[3]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20210826 15:20:04.962" endtime="20210826 15:20:05.274"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:07.280" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:05.275" endtime="20210826 15:20:07.280"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[1]/ul/li[1]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:07.280" endtime="20210826 15:20:07.590"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:09.605" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:07.591" endtime="20210826 15:20:09.605"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[1]/ul/li[2]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:09.605" endtime="20210826 15:20:09.922"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:11.928" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:09.922" endtime="20210826 15:20:11.928"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[3]/ul/li[1]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:11.929" endtime="20210826 15:20:12.244"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:14.255" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:12.245" endtime="20210826 15:20:14.255"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[1]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:14.255" endtime="20210826 15:20:14.563"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:16.567" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:14.564" endtime="20210826 15:20:16.567"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[2]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:16.567" endtime="20210826 15:20:16.873"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:18.879" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:16.873" endtime="20210826 15:20:18.879"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[3]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:18.879" endtime="20210826 15:20:19.175"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:21.181" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:19.176" endtime="20210826 15:20:21.181"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[4]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:21.181" endtime="20210826 15:20:21.481"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:23.484" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:21.482" endtime="20210826 15:20:23.484"/>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[6]/a</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:23.484" endtime="20210826 15:20:23.778"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:25.783" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:23.778" endtime="20210826 15:20:25.783"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[6]/a</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<msg timestamp="20210826 15:20:25.784" level="INFO">Simulating Mouse Over on element '//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20210826 15:20:25.784" endtime="20210826 15:20:26.075"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:28.090" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:26.076" endtime="20210826 15:20:28.090"/>
+</kw>
+<kw name="Mouse Out" library="SeleniumLibrary">
+<arg>//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[6]/a</arg>
+<doc>Simulates moving the mouse away from the element ``locator``.</doc>
+<msg timestamp="20210826 15:20:28.091" level="INFO">Simulating Mouse Out on element '//*[@id="navFooter"]/div[1]/div/div[5]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20210826 15:20:28.091" endtime="20210826 15:20:28.630"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20210826 15:20:28.631" level="INFO">Opening url 'https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya'</msg>
+<status status="PASS" starttime="20210826 15:20:28.631" endtime="20210826 15:20:29.511"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:31.524" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:29.512" endtime="20210826 15:20:31.524"/>
+</kw>
+<status status="PASS" starttime="20210826 15:19:56.625" endtime="20210826 15:20:31.524"/>
+</test>
+<test id="s1-t2" name="Right Click On Element">
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<arg>//*[@id="a-page"]/div[2]/div/div[3]/div[1]/a/div/div/div/div[2]/h2</arg>
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<status status="PASS" starttime="20210826 15:20:31.524" endtime="20210826 15:20:31.823"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210826 15:20:33.836" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210826 15:20:31.823" endtime="20210826 15:20:33.836"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210826 15:20:33.836" endtime="20210826 15:20:36.018"/>
+</kw>
+<status status="PASS" starttime="20210826 15:20:31.524" endtime="20210826 15:20:36.019"/>
+</test>
+<status status="PASS" starttime="20210826 15:19:56.391" endtime="20210826 15:20:36.021"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Action">Action</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
